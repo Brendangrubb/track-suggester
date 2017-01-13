@@ -17,27 +17,42 @@
 
       <div id="survey-questions">
         <form>
-          <div class="form-group">
-            <label for="">Question1</label>
-            <input id="" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="">Question2</label>
-            <input id="" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="">Question3</label>
-            <input id="" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="">Question4</label>
-            <input id="" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="">Question5</label>
-            <input id="" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn btn-info">Submit!</button>
+          <label for="question1">Which of these best describes your current outfit?</label>
+          <select class="form-control" id="question1">
+            <option value="none">Sweatpants and a stained t-shirt.</option>
+            <option value="none">I just put on whatever my girlfriend/boyfriend buys for me.</option>
+            <option value="design">I got the shirt from a pop-up in Park Slope and the pants are off the rack but I had them tailored. Thanks for asking!</option>
+          </select>
+
+          <label for="question2">Which of these work environments best suits your lifestyle?</label>
+          <select class="form-control" id="question2">
+            <option value="design">I wanna work for Graybox making websites look pretty.</option>
+            <option value="c-sharp">I'd like to make the website for the City of Portland more data rich and responsive.</option>
+            <option value="java">I just wanna build apps for my smartphone, man.</option>
+          </select>
+
+          <label for="question3">What is the most common way you interact with the internet?</label>
+          <select class="form-control" id="questio3">
+            <option value="java">I usually get my news, entertainemt and other information from apps I've downloaded to my phone.</option>
+            <option value="c-sharp">I use Internet Explorer on my PC.</option>
+            <option value="none">Internet!? I prefer to read the paper, thanks.</option>
+          </select>
+
+          <label for="question4">Check out these websites and tell me which one you like the most:</label>
+          <select class="form-control" id="question4">
+            <option value="none">LivingSocial.com</option>
+            <option value="c-sharp">Incomm.com</option>
+            <option value="none">MetalToad.com</option>
+          </select>
+
+          <label for="question5">What type of work environment most suits your personality?</label>
+          <select class="form-control" id="question5">
+            <option value="c-sharp">I prefer to be a cog in the wheel of a giant corporation or government agency.</option>
+            <option value="java">I'd like to work for a smaller company with people who share my interests and values.</option>
+            <option value="design">Doesn't matter as long as their website looks good!</option>
+          </select>
+
+          <button type="submit" class="btn btn-info">Click to find out what track best suits you!</button>
         </form>
       </div>
 
@@ -73,8 +88,9 @@
       <div class="page-padding">
       </div>
     </div>
-    <footer>
-      <p>email, links, copyright info</p>
+    <footer class="footer-text">
+      <h4>send us an email at <a href="mailto:brendangrubb@gmail.com">BrendanGrubb@gmail.com</a></h4>
+      <h5>&copy; 2017 Grubb Industries Incorporated</h5>
     </footer>
   </body>
 </html>

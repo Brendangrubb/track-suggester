@@ -22,8 +22,11 @@ img {
 
 
 
+
+
+
 .suggestions {
-  background-color: #EEEEEE;
+  background-color: #ECECEC;
 }
 
 #suggestion1 {
@@ -37,6 +40,9 @@ img {
 #suggestion3 {
   display: none;
 }
+
+
+
 
 
 
@@ -55,4 +61,9 @@ footer {
   background-repeat: repeat;*/
   background-attachment: scroll;
   background-position: 0%, 0%;
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 30px;
 }
