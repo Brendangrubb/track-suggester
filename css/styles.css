@@ -1,6 +1,5 @@
 body {
   background-color: #00B4B5;
-
 }
 
 header {
@@ -19,13 +18,41 @@ img {
 
 .header-text {
   margin-left: 50px;
+}
 
+
+
+.suggestions {
+  background-color: #EEEEEE;
+}
+
+#suggestion1 {
+  display: none;
+}
+
+#suggestion2 {
+  display: none;
+}
+
+#suggestion3 {
+  display: none;
+}
+
+
+
+
+.page-padding {
+  margin-bottom: 150px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  height: 120px;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   background-color: #969696;
-  padding: 40px;
+  /*background-image: none;
+  background-repeat: repeat;*/
+  background-attachment: scroll;
+  background-position: 0%, 0%;
 }
