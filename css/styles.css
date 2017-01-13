@@ -17,11 +17,22 @@ img {
 }
 
 .header-text {
+  color: #545454;
   margin-left: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.intro-text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 
-
+.form-control {
+  margin-bottom: 7px;
+}
 
 
 
@@ -41,7 +52,11 @@ img {
   display: none;
 }
 
-
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #FFFFFF;
+}
 
 
 
@@ -65,5 +80,5 @@ footer {
 }
 
 .footer-text {
-  padding-top: 30px;
+  padding-top: 15px;
 }
