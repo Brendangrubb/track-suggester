@@ -1,6 +1,6 @@
 # _Epicodus Track-Suggester_
 
-#### _A webpage to help users pick a language track at Epicodus. Current version:1/13/17_
+#### _A webpage to help users pick a language track at Epicodus. Current version: 1/13/17_
 
 #### By _**Brendan Grubb**_
 
