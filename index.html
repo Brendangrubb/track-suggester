@@ -15,45 +15,45 @@
     </header>
     <div class="container">
 
-      <div class="well intro-text">
-        <p>If you're considering a career in web development the options can seem overwhelming. Epicodus, located in Downtown Portland, Oregon, is held in high regard throughout the industry. If you enroll and are accepted, you will need to pick a series of preselected courses (or a "track") that will carry you throughout your time at the school. If you can't decide which track is right for you, don't worry, you're not alone!</p> <p>Here's how it works. Every track includes <strong><em>Intro to Programming</em></strong>, the <strong><em>JavaScraipt</em></strong> course, an <strong><em>Internship</em></strong> and 2 other courses. There are 5 tracks to choose from: <strong><em>Ruby/Rails, PHP/Drupal, Java/Android, CSS/Design and C#/.NET</em></strong>. Ultimately, the track you choose doesn't matter much because programmers switch languages quite a bit throughout their career. However if you would like a bit of help with your selection, answer the questions below!</p>
+      <div class="well" id="intro-text">
+        <p>If you're considering a career in web development the options can seem overwhelming. Epicodus, located in Downtown Portland, Oregon, is held in high regard throughout the industry. If you enroll and are accepted you will need to pick a series of preselected courses (or a "track") that will carry you throughout your time at the school. If you can't decide which track is right for you, don't worry, you're not alone!</p> <p>Here's how it works. Every track includes <strong><em>Intro to Programming</em></strong>, the <strong><em>JavaScraipt</em></strong> course, an <strong><em>Internship</em></strong> and 2 other courses. There are 5 tracks to choose from: <strong><em>Ruby/Rails, PHP/Drupal, Java/Android, CSS/Design and C#/.NET</em></strong>. Ultimately, the track you choose doesn't matter much because programmers tend to switch languages quite a bit throughout their career. However if you would like a bit of help with your selection, answer the questions below!</p>
       </div>
 
-      <div id="survey-questions">
-        <form>
+      <div>
+        <form id="survey-questions">
           <label for="question1">Which of these best describes your current outfit?</label>
           <select class="form-control" id="question1">
             <option value="none">Sweatpants and a stained t-shirt.</option>
             <option value="none">I just put on whatever my girlfriend/boyfriend buys for me.</option>
-            <option value="design">I got the shirt from a pop-up in Park Slope and the pants are off the rack but I had them tailored. Thanks for asking!</option>
+            <option value="question1Design">I got the shirt from a pop-up in Park Slope and the pants are off the rack but I had them tailored. Thanks for asking!</option>
           </select>
 
           <label for="question2">Which of these work environments best suits your lifestyle?</label>
           <select class="form-control" id="question2">
-            <option value="design">I wanna work for Graybox making websites look pretty.</option>
-            <option value="c-sharp">I'd like to make the website for the City of Portland more data rich and responsive.</option>
-            <option value="java">I just wanna build apps for my smartphone, man.</option>
+            <option value="question2Design">I wanna work for Graybox and make websites look pretty.</option>
+            <option value="question2C-sharp">I'd like to make the website for the City of Portland more data rich and responsive.</option>
+            <option value="question2Java">I just wanna build apps for my smartphone, man.</option>
           </select>
 
           <label for="question3">What is the most common way you interact with the internet?</label>
           <select class="form-control" id="questio3">
-            <option value="java">I usually get my news, entertainemt and other information from apps I've downloaded to my phone.</option>
-            <option value="c-sharp">I use Internet Explorer on my PC.</option>
+            <option value="question3Java">I usually get my news, entertainment and other information from apps I've downloaded to my phone.</option>
+            <option value="question3C-sharp">I use Internet Explorer on my PC.</option>
             <option value="none">Internet!? I prefer to read the paper, thanks.</option>
           </select>
 
           <label for="question4">Check out these websites and tell me which one you like the most:</label>
           <select class="form-control" id="question4">
             <option value="none">LivingSocial.com</option>
-            <option value="c-sharp">Incomm.com</option>
+            <option value="question4C-sharp">Incomm.com</option>
             <option value="none">MetalToad.com</option>
           </select>
 
-          <label for="question5">What type of work environment most suits your personality?</label>
+          <label for="question5">What type of work environment best suits your personality?</label>
           <select class="form-control" id="question5">
-            <option value="c-sharp">I prefer to be a cog in the wheel of a giant corporation or government agency.</option>
-            <option value="java">I'd like to work for a smaller company with people who share my interests and values.</option>
-            <option value="design">Doesn't matter as long as their website looks good!</option>
+            <option value="question5C-sharp">I prefer to be a cog in the wheel of a giant corporation or government agency.</option>
+            <option value="question5Java">I'd like to work for a smaller company with people who share my interests and values.</option>
+            <option value="question5Design">Doesn't matter as long as their website looks good!</option>
           </select>
 
           <button type="submit" class="btn">Click to find out what track best suits you!</button>
@@ -84,10 +84,9 @@
         </div>
       </div>
 
-
-
-
-
+      <div class="quiz-again">
+        <button class="btn"><a href="javascript:history.go(0)">Click here to take the quiz again!</a></button>
+      </div>
 
       <div class="page-padding">
       </div>

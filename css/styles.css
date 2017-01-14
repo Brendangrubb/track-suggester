@@ -23,11 +23,12 @@ img {
   margin-top: 15px;
 }
 
-.intro-text {
+#intro-text {
   margin-top: 8px;
   margin-bottom: 8px;
   padding-bottom: 10px;
 }
+
 
 
 .form-control {
@@ -41,14 +42,17 @@ img {
 }
 
 #suggestion1 {
+  margin-top: 5px;
   display: none;
 }
 
 #suggestion2 {
+  margin-top: 5px;
   display: none;
 }
 
 #suggestion3 {
+  margin-top: 5px;
   display: none;
 }
 
@@ -58,7 +62,10 @@ img {
   background-color: #FFFFFF;
 }
 
-
+.quiz-again {
+  text-align: center;
+  display: none;
+}
 
 
 
